@@ -1,0 +1,29 @@
+package whil;
+
+import java.util.Scanner;
+
+public class MvalM {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int a, i;
+		System.out.println("Digite o valor 2");
+		a = sc.nextInt();
+		System.out.println("Digite o valor 1");
+		i = sc.nextInt();
+		if (a > i) {
+			for (int j = i; j < a; j++) {
+				System.out.print(j + " " + a + " - ");
+
+			}
+
+		} else if (i > a) {
+			for (int j = a; j < i; j++) {
+				System.out.print(j + " " + i + " - ");
+
+			}
+		}
+
+	}
+
+}

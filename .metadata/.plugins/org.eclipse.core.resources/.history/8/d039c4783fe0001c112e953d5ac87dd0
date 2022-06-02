@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class main {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int alunos=0 , professor=0 , numBus=0;
+		String nameSchool=null;
+		infos onibus[] =(new infos[]) new infos(alunos,professor,nameSchool,numBus);
+		System.out.println("Bem Vindo!\nSistema de identificação de onibus escolares");
+		for (int i = 0; i < 5; i++) {numBus=i;
+		System.out.println("onibus "+numBus);
+		
+		
+		
+		
+		}
+
+		System.err.println("FIN.");
+	}
+
+}

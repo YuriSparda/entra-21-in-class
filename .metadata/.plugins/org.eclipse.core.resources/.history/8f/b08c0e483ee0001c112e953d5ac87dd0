@@ -1,0 +1,35 @@
+
+public class infos {
+	private int alunos;
+	private int professor;
+	private String escola;
+	public int numBus;
+	public infos(int[] alunos, int[] professor, String[] escola, int numBus) {
+		this.alunos = alunos;
+		this.professor = professor;
+		this.escola = escola;
+		this.numBus = numBus;
+	}
+	public int[] getAlunos() {
+		return alunos;
+	}
+	public void setAlunos(int[] alunos) {
+		this.alunos = alunos;
+	}
+	public int[] getProfessor() {
+		return professor;
+	}
+	public void setProfessor(int[] professor) {
+		this.professor = professor;
+	}
+	public String[] getEscola() {
+		return escola;
+	}
+	public void setEscola(String[] escola) {
+		this.escola = escola;
+	}
+	
+	
+		
+
+}

@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class main {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		infos bus =new infos(40, 2,"escola1", 1);
+		System.out.println("Bem Vindo!\nSistema de identificação de onibus escolares");
+		for (int i = 0; i < 5; i++) {
+		System.out.println(" onibus");	
+		
+		
+		
+		
+		}
+
+		System.err.println("FIN.");
+	}
+
+}

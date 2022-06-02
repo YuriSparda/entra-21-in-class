@@ -1,0 +1,22 @@
+package whil;
+
+import java.util.Scanner;
+
+public class fatorial {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("digite o numero para o calculo");
+		int fat=sc.nextInt();
+		int result=0;
+		System.out.println("resultado");
+		for (int i = fat; i>0;i++) {
+			result=fat*i;
+			System.out.println(result);
+			
+			
+		}
+
+	}
+
+}

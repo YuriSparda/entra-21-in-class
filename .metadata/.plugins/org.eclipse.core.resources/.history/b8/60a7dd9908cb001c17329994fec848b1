@@ -1,0 +1,16 @@
+package whil;
+
+import java.util.Scanner;
+
+public class strgVar {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String txt = sc.next();
+		System.out.println(txt);
+		
+		
+		
+		
+	}
+}

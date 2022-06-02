@@ -1,0 +1,27 @@
+package whil;
+
+import java.util.Scanner;
+
+public class laçosAlt {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int y;
+		int x;
+		System.out.println("digite um numero aleatorio de 0 a 10");
+		y = sc.nextInt();
+		x = 0;
+
+		while (true) {
+			y = sc.nextInt();
+			x++;
+			if (y ==0) {break;
+			else if (true) {System.out.println("numero de tentativas = " + x);
+				
+			}
+			}
+		}
+
+	}
+
+}

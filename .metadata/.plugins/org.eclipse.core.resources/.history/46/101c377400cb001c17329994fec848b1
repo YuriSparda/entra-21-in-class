@@ -1,0 +1,26 @@
+package whil;
+
+import java.util.Scanner;
+
+public class MvalM {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int a, i, x, d;
+		System.out.println("digite o maior valor (a cima de 50)");
+		a = sc.nextInt();
+		i = 1;
+		if (a >= 50) {x=1;
+			while (i > a) {System.out.print(i+", ");
+				i=i+x;
+				if (i==a) {break;
+					
+				}
+			}
+
+		} else if (a < 50) {
+			System.out.println("valor invalido");
+		}
+	}
+
+}
