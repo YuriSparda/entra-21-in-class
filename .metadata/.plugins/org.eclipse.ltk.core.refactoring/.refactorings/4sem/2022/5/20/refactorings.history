@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename compilation unit &apos;semana4.exerc_7.java&apos; to &apos;exerc_6.java&apos;&#x0D;&#x0A;- Original project: &apos;4sem&apos;&#x0D;&#x0A;- Original element: &apos;semana4.exerc_7.java&apos;&#x0D;&#x0A;- Renamed element: &apos;semana4.exerc_6.java&apos;" description="Rename compilation unit &apos;exerc_7.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;semana4{exerc_7.java" name="exerc_6.java" references="false" stamp="1652127735227" version="1.0"/>
-</session>

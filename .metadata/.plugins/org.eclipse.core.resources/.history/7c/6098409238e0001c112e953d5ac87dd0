@@ -1,8 +1,0 @@
-
-public class infos {
-	private int alunos[]= new int[5];
-	private int professor[]= new int[5];
-	public int numBus;
-	
-
-}
