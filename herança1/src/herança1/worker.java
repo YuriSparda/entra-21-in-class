@@ -2,10 +2,10 @@ package herança1;
 
 public class worker extends work {
 	public Double workTime;
-	public String ID;
+	public int ID;
 
-	public worker(String name, Double salario, int tempo, Double workTime, String ID) {
-		super(name, salario, tempo);
+	public worker(String name, Double salario, int Tempo, Double workTime, int ID) {
+		super(name, salario, Tempo);
 		this.workTime = workTime;
 		this.ID = ID;
 	}
@@ -18,12 +18,20 @@ public class worker extends work {
 		this.workTime = workTime;
 	}
 
-	public String getID() {
+	public int getID() {
 		return ID;
 	}
 
-	public void setID(String iD) {
-		ID = iD;
+	public void setID(int ID) {
+		this.ID = ID;
 	}
 
+	public String dados() {
+		return "nome " + name + " Salario " + salario + " data de inicio " + Tempo + "\ntempo de trabalho por dia "
+				+ workTime + " id sindicato " + ID;
+	}
+	public void SyndcateOut() {
+		this.ID=0;
+		
+	}
 }
