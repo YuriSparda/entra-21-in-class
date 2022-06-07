@@ -30,10 +30,10 @@ public class work {
 		Tempo = tempo;
 	}
 
-	public work(String name, Double salario, int tempo) {
+	public work(String name, Double salario, int Tempo) {
 		this.name = name;
 		this.salario = salario;
-		Tempo = tempo;
+		this.Tempo = Tempo;
 	}
 
 }
