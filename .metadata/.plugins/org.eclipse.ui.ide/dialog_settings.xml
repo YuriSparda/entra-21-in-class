@@ -4,22 +4,22 @@
 		<item value="C:\Users\Yuri Sparda\Desktop\java eclipse"/>
 	</list>
 	<section name="SmartImportWizard">
-		<item value="false" key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN"/>
-		<item value="false" key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED"/>
-		<item value="true" key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES"/>
-		<item value="true" key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS"/>
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
 			<item value="C:\Users\ygolfeto\Desktop\aulas java"/>
 		</list>
 	</section>
 	<section name="NewWizardAction">
-		<item value="org.eclipse.jdt.ui.wizards.JavaProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
 			<item value="org.eclipse.jdt.ui.java"/>
 		</list>
 	</section>
 	<section name="ChooseWorkspaceDialogSettings">
-		<item value="492" key="DIALOG_X_ORIGIN"/>
-		<item value="251" key="DIALOG_Y_ORIGIN"/>
+		<item key="DIALOG_X_ORIGIN" value="492"/>
+		<item key="DIALOG_Y_ORIGIN" value="251"/>
 	</section>
 </section>
