@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="521.0" prefWidth="735.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.VierController">
+   <children>
+      <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="333.0" prefWidth="735.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="437.0" prefWidth="240.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Unidade Blumenau" textAlignment="CENTER" wrappingWidth="232.13671875">
+                     <font>
+                        <Font size="27.0" />
+                     </font>
+                  </Text>
+                  <ImageView cache="true" cacheHint="QUALITY" fitHeight="70.0" fitWidth="70.0">
+                     <image>
+                        <Image url="@../../../../../Downloads/icons/61eac84c909ba-1%20(1).png" />
+                     </image>
+                  </ImageView>
+                  <TextField fx:id="uniMB" alignment="CENTER" prefHeight="10.0" prefWidth="240.0" promptText="Valor da unidade" />
+                  <TextField fx:id="asB" alignment="CENTER" promptText="quantidade maças" />
+                  <ImageView cache="true" cacheHint="QUALITY" fitHeight="70.0" fitWidth="70.0">
+                     <image>
+                        <Image url="@../../../../../Downloads/icons/135620.png" />
+                     </image>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </ImageView>
+                  <TextField fx:id="uniLB" alignment="CENTER" promptText="Valor unidade" />
+                  <TextField fx:id="LaranjasB" alignment="CENTER" promptText="quantidade laranjas" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="440.0" prefWidth="238.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Unidade Joinville" textAlignment="CENTER" wrappingWidth="232.13671875">
+                     <font>
+                        <Font size="27.0" />
+                     </font>
+                  </Text>
+                  <ImageView cache="true" cacheHint="QUALITY" fitHeight="70.0" fitWidth="70.0">
+                     <image>
+                        <Image url="@../../../../../Downloads/icons/61eac84c909ba-1%20(1).png" />
+                     </image>
+                  </ImageView>
+                  <TextField fx:id="uniMJ" alignment="CENTER" prefHeight="10.0" prefWidth="240.0" promptText="Valor unidade" />
+                  <TextField fx:id="asJ" alignment="CENTER" promptText="quantidade maças" />
+                  <ImageView cache="true" cacheHint="QUALITY" fitHeight="70.0" fitWidth="70.0">
+                     <image>
+                        <Image url="@../../../../../Downloads/icons/135620.png" />
+                     </image>
+                  </ImageView>
+                  <TextField fx:id="uniLJ" alignment="CENTER" promptText="Valor unidade" />
+                  <TextField fx:id="LaranjasJ" alignment="CENTER" promptText="quantidade laranjas" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="437.0" prefWidth="251.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Unidade Floripa" textAlignment="CENTER" wrappingWidth="232.13671875">
+                     <font>
+                        <Font size="27.0" />
+                     </font>
+                  </Text>
+                  <ImageView cache="true" cacheHint="QUALITY" fitHeight="70.0" fitWidth="70.0">
+                     <image>
+                        <Image url="@../../../../../Downloads/icons/61eac84c909ba-1%20(1).png" />
+                     </image>
+                  </ImageView>
+                  <TextField fx:id="uniMF" alignment="CENTER" prefHeight="10.0" prefWidth="240.0" promptText="Valor unidade" />
+                  <TextField fx:id="asF" alignment="CENTER" promptText="quantidade maças" />
+                  <ImageView cache="true" cacheHint="QUALITY" fitHeight="70.0" fitWidth="70.0">
+                     <image>
+                        <Image url="@../../../../../Downloads/icons/135620.png" />
+                     </image>
+                  </ImageView>
+                  <TextField fx:id="uniLF" alignment="CENTER" promptText="Valor unidade" />
+                  <TextField fx:id="LaranjasF" alignment="CENTER" promptText="quantidade laranjas" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <Button fx:id="btInic" layoutX="333.0" layoutY="311.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="70.0" text="Start" />
+   </children>
+</AnchorPane>

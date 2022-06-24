@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="550.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/18"
+	xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.VierController">
+	<children>
+		<Label layoutX="7.0" layoutY="7.0" prefHeight="69.0"
+			prefWidth="337.0" text="Calculo Girard" textAlignment="CENTER">
+			<font>
+				<Font size="31.0" />
+			</font>
+		</Label>
+		<TextField fx:id="NumA" layoutX="32.0" layoutY="76.0"
+			promptText="A=" />
+		<TextField fx:id="NumB" layoutX="30.0" layoutY="131.0"
+			promptText="B=" />
+		<TextField fx:id="NumC" layoutX="32.0" layoutY="187.0"
+			promptText="C=" />
+		<Button fx:id="testBt" layoutX="202.0" layoutY="132.0"
+			mnemonicParsing="false" onAction="#onBtCalc" prefHeight="30.0"
+			prefWidth="96.0" text="Calcular" />
+		<Label layoutX="60.0" layoutY="288.0" prefHeight="18.0"
+			prefWidth="33.0" text="-B" />
+		<Label layoutX="61.0" layoutY="318.0" prefHeight="18.0"
+			prefWidth="33.0" text="A" textAlignment="CENTER" />
+		<Label fx:id="LResult1" layoutX="92.0" layoutY="303.0"
+			prefHeight="18.0" prefWidth="47.0" />
+		<Label layoutX="10.0" layoutY="303.0" prefHeight="18.0"
+			prefWidth="83.0" text="Soma---------=" />
+		<Label layoutX="61.0" layoutY="357.0" text="C" />
+		<Label layoutX="61.0" layoutY="387.0" text="A" />
+		<Label fx:id="LResult2" layoutX="94.0" layoutY="372.0"
+			prefHeight="18.0" prefWidth="47.0" />
+		<Label layoutX="9.0" layoutY="372.0" prefHeight="18.0"
+			prefWidth="83.0" text="Produto ------=" />
+		<Label layoutX="8.0" layoutY="441.0" prefHeight="61.0"
+			prefWidth="139.0" text="Resultado">
+			<font>
+				<Font size="30.0" />
+			</font>
+		</Label>
+		<Label fx:id="LResult3" layoutX="179.0" layoutY="451.0"
+			prefHeight="46.0" prefWidth="62.0" />
+		<Label fx:id="LResult4" layoutX="250.0" layoutY="451.0"
+			prefHeight="46.0" prefWidth="62.0" />
+	</children>
+</AnchorPane>
